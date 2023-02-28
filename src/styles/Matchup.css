@@ -1,0 +1,17 @@
+.matchup {
+  border: 1px solid var(--color-gray-border);
+  background-color: var(--color-gray-bg-light);
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.matchup .ant-typography,
+.matchup .ant-statistic-title,
+.matchup .ant-statistic-content {
+  color: black;
+}
+
+.matchup .ant-avatar img {
+  width: auto;
+  transform: translateX(-16%);
+}

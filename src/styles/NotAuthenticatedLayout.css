@@ -1,0 +1,14 @@
+.no-auth-site-layout #logo {
+  width: 56px;
+  height: 56px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 4px;
+}
+
+.no-auth-site-layout .site-content {
+  background-color: #fff;
+  margin: 8px;
+  padding: 16px;
+  min-height: 300px;
+}

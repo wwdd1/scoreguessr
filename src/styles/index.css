@@ -1,0 +1,96 @@
+@import '~antd/dist/antd.css';
+
+:root {
+  --color-blue: #1890ff;
+  --color-qatar-22-bg: #92153F;
+  --color-gray-bg-light: #f0f2f5;
+  --color-gray-border: #e2e2e2;
+}
+
+@font-face {
+  font-family: 'font-regular';
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'font-regular-italic';
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'font-bold';
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'font-bold-italic';
+  src: url("../fonts/RobotoCondensed-BoldItalic.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'font-light';
+  src: url("../fonts/RobotoCondensed-Light.ttf") format("truetype");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.typ-title {
+  font-family: font-bold;
+  font-size: 26px;
+}
+
+.typ-title-i {
+  font-family: font-bold-italic;
+  font-size: 26px;
+}
+
+.typ-thin {
+  font-family: font-light;
+}
+
+.typ-bold {
+  font-family: font-bold;
+}
+
+.typ-bold-i {
+  font-family: font-bold-italic;
+}
+
+.typ-16 {
+  font-size: 16px;
+}
+
+.typ-20 {
+  font-size: 20px;
+}
+
+.typ-24 {
+  font-size: 24px;
+}
+
+.typ-30 {
+  font-size: 30px;
+}
+
+.typ-caption {
+  font-family: font-regular;
+  font-size: 12px;
+}
+
+* {
+  font-family: font-regular;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
